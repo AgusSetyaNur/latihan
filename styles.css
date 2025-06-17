@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
+  line-height: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin: 25px;
+}
+
+.morning,
+.afternoon,
+.evening {
+  padding: 10px;
+  margin: 10px 25px;
+}
+.morning {
+  background-color: #a2d2df;
+}
+
+.afternoon {
+  background-color: #bc7c7c;
+}
+
+.evening {
+  background-color: #f6efbd;
+}
+
+.list {
+  font-size: 20px;
+  border-bottom: black 3px dotted;
+  margin: 20px;
+  padding-bottom: 15px;
+}
+
+.list ul {
+  list-style: square;
+  display: block;
+  margin-left: -20px;
+}
+
+.github {
+  margin: 100px 0 30px 0;
+  text-align: center;
+}
+
+.github img {
+  height: 40px;
+  width: auto;
+}
+
+.github img:hover {
+  background-color: orange;
+  border-radius: 20px;
+  height: 42px;
+  width: auto;
+}
